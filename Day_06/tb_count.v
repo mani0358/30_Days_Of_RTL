@@ -4,36 +4,41 @@ module tb_asy;
 
 reg clk;
 reg reset;
-wire [3:0] q;
+wire [3:0] count;
 
-// Instantiate the Counter
-count_asy uut(
+// Instantiate the DUT
+counter_asy uut (
     .clk(clk),
     .reset(reset),
-    .q(q)
+    .count(count)
 );
 
-// Clock Generation (10 ns period)
+// Clock generation (10 ns period)
 always #5 clk = ~clk;
 
 initial begin
     clk = 0;
     reset = 1;
 
-    // Hold reset
-    #15;
+    // Apply asynchronous reset
+    #12 reset = 0;
+
+    // Let the counter run
+    #100;
+
+    // Apply reset again
+    reset = 1;
+    #8;
     reset = 0;
 
-    // Run the counter
-    #200;
-
+    #50;
     $finish;
 end
 
-// Display output
+// Monitor output
 initial begin
-    $display("Time\tReset\tCount");
-    $monitor("%0t\t%b\t%b", $time, reset, q);
+    $monitor("Time=%0t Reset=%b Count=%d (%b)",
+             $time, reset, count, count);
 end
 
 endmodule
