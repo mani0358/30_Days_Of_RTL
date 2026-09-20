@@ -6,7 +6,7 @@ Learn how to design and verify a basic synchronous FIFO in Verilog.
 
 Today we will cover:
 
-* What a FIFO is
+* What a FIFO is   
 * FIFO architecture
 * Write operation
 * Read operation
