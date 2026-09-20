@@ -1,6 +1,6 @@
 # Day 35 — Waveform Generators
 
-## 📌 Topic
+## 📌 Topic 
 
 **Waveform Generators**
 
