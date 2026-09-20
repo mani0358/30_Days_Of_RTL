@@ -8,7 +8,7 @@ Today we will cover:
 
 * What a FIFO is   
 * FIFO architecture
-* Write operation
+* Write operation   
 * Read operation
 * Write pointer
 * Read pointer
