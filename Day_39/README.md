@@ -1,7 +1,7 @@
 # Day 39 — RAM vs ROM Coding Styles
 
 ## 1. Objective
-
+  
 Learn how to code:
 
 * ROM in Verilog
