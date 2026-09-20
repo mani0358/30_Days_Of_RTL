@@ -1,19 +1,18 @@
 <div align="center">
 
-# 🚀 30 Days of RTL Design Challenge
+# 🚀 50 Days of RTL Design Challenge
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Master+RTL+Design+in+30+Days!;Verilog+%7C+FPGA+%7C+Digital+Design;From+Beginner+to+RTL+Engineer" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Master+RTL+Design+in+50+Days!;Verilog+%7C+FPGA+%7C+Digital+Design;From+Beginner+to+RTL+Engineer" />
 
 ![RTL](https://img.shields.io/badge/RTL-Verilog-red?style=for-the-badge)
 ![FPGA](https://img.shields.io/badge/FPGA-Xilinx-blue?style=for-the-badge)
 ![Vivado](https://img.shields.io/badge/Vivado-2023-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
-### 🎯 Learn • Code • Simulate • Build • Repeat
+### 🎯 Learn • Code • Simulate • Build
 
-> **30 Days | 30 Projects | RTL to FPGA**
+> **50 Days | 50 Topics | RTL to FPGA**
 
 </div>
 
@@ -21,70 +20,107 @@
 
 # 📖 About
 
-Welcome to the **30 Days of RTL Design Challenge**.
+Welcome to the **50 Days of RTL Design Challenge**.
 
-This repository is designed for students, FPGA enthusiasts, VLSI beginners, and hardware engineers who want to master **Verilog RTL Design** through practical projects.
+This repository is designed to build strong skills in **Verilog RTL design, digital systems, simulation, and FPGA development** through daily learning and practical RTL projects.
 
-Instead of only reading theory, every day you'll design a real RTL module, simulate it, and understand how hardware actually works.
+Every day focuses on a specific RTL concept followed by **coding, simulation, verification, and placement preparation**.
 
 ---
 
 # 🎯 What You'll Learn
 
-✅ Verilog HDL
-
-✅ RTL Coding Style
-
-✅ Combinational Logic
-
-✅ Sequential Logic
-
+✅ Verilog HDL & RTL Coding
+✅ Combinational & Sequential Logic
+✅ Counters & Shift Registers
 ✅ FSM Design
-
-✅ Counters
-
-✅ Shift Registers
-
-✅ Memories
-
-✅ FIFO
-
-✅ Clocking
-
-✅ Error Detection
-
-✅ Digital System Design
-
+✅ Pipeline & Clocking
+✅ Memories & FIFO
+✅ Error Detection & Correction
+✅ Arithmetic RTL
 ✅ FPGA Coding Practices
+✅ RTL Design Best Practices
 
 ---
 
-# 🛠 Tools Used
+# 🛠 Tools
 
-- Verilog HDL
-- Vivado
-- ModelSim / Questa
-- GTKWave
-- Xilinx FPGA
-- Git & GitHub
+* Verilog HDL
+* Icarus Verilog
+* GTKWave
+* Vivado
+* ModelSim / Questa
+* Git & GitHub
+
+---
+
+# 📅 50 Days Roadmap
+
+| Day | Topic                       | Project / Focus        |
+| --- | --------------------------- | ---------------------- |
+| 01  | Naming Convention           | Half Adder             |
+| 02  | Text-Based Design Flow      | Comparator             |
+| 03  | Graphic-Based Design Flow   | RTL Design Flow        |
+| 04  | Wire                        | Combinational Logic    |
+| 05  | Reg                         | D Flip-Flop            |
+| 06  | Integer                     | Counter                |
+| 07  | Parameters & Localparam     | Parameterized Counter  |
+| 08  | Initialization              | X-State Analysis       |
+| 09  | Dataflow Modeling           | Binary → Gray          |
+| 10  | Behavioral Modeling         | 3×8 Demux              |
+| 11  | Structural Modeling         | Ripple Carry Adder     |
+| 12  | Switch Modeling             | CMOS Inverter          |
+| 13  | Combinational vs Sequential | Multiplier             |
+| 14  | Continuous Assignment       | RTL Logic              |
+| 15  | Blocking Assignment         | ALU                    |
+| 16  | Nonblocking Assignment      | Pipeline               |
+| 17  | If-Else                     | Priority Encoder       |
+| 18  | Case Statement              | ALU                    |
+| 19  | Tasks & Functions           | Reusable RTL           |
+| 20  | Reset Design                | Reset Logic            |
+| 21  | Sequential Design           | Registers              |
+| 22  | Counters                    | Async / Sync           |
+| 23  | MOD Counters                | Custom Counter         |
+| 24  | Shift Registers             | SISO / SIPO            |
+| 25  | Sequence Generator          | Custom Sequence        |
+| 26  | Edge Detector               | Edge Detection         |
+| 27  | Arbiter                     | Priority / Round Robin |
+| 28  | Pipeline                    | Arithmetic Pipeline    |
+| 29  | Concurrency                 | PWM                    |
+| 30  | Recursive Systems           | Fibonacci              |
+| 31  | Clock Dividers              | Frequency Divider      |
+| 32  | Fractional Dividers         | PLL / MMCM             |
+| 33  | Glue Logic                  | Interface Logic        |
+| 34  | Error Detection             | CRC                    |
+| 35  | Waveform Generator          | Sinc Generator         |
+| 36  | FSM State Diagram           | 101 Detector           |
+| 37  | FSM Flowchart               | Traffic Light          |
+| 38  | File I/O                    | ROM Initialization     |
+| 39  | RAM vs ROM                  | Memory Design          |
+| 40  | Block vs Distributed Memory | FPGA Memory            |
+| 41  | FIFO                        | Synchronous FIFO       |
+| 42  | FIFO Calculations           | Depth / Width          |
+| 43  | Booth Multiplier            | Signed Arithmetic      |
+| 44  | Combinational Blocks        | 32-bit Slicer          |
+| 45  | High Cohesion               | Modular RTL            |
+| 46  | Low Coupling                | Module Interfaces      |
+| 47  | Avoid Magic Numbers         | Parameterization       |
+| 48  | Robustness                  | Error Handling         |
+| 49  | Readability                 | Clean RTL              |
+| 50  | DRY                         | Reusable RTL           |
 
 ---
 
 # 📂 Repository Structure
 
-```
-30-Days-RTL/
+```text
+50-Days-RTL/
 
-│
-├── Day01_HalfAdder/
-├── Day02_DataTypes/
-├── Day03_Dataflow/
-├── Day04_Behavioral/
-├── Day05_Structural/
-│
+├── Day01_Naming/
+├── Day02_TextBasedFlow/
+├── Day03_GraphicFlow/
 ├── ...
-│
-├── Day30_FinalProject/
+├── Day50_DRY/
 │
 ├── Images/
 ├── Docs/
@@ -92,143 +128,52 @@ Instead of only reading theory, every day you'll design a real RTL module, simul
 └── LICENSE
 ```
 
----
+### Daily Folder
 
-# 📅 30 Days Roadmap
-
-| Day | Topic | Project |
-|------|---------|-----------|
-| 1 | Verilog Basics & Naming | Half Adder |
-| 2 | Wire, Reg, Logic, Integer | D Flip-Flop |
-| 3 | Parameters & Localparam | Configurable Counter |
-| 4 | Dataflow Modeling | Binary → Gray Converter |
-| 5 | Behavioral Modeling | 3×8 Demux |
-| 6 | Structural Modeling | Ripple Carry Adder |
-| 7 | Switch Level Modeling | CMOS Inverter |
-| 8 | Combinational vs Sequential | Sequential Multiplier |
-| 9 | Continuous Assignment | Request-Acknowledge Logic |
-|10 | Blocking vs Non-blocking | Register & Priority Encoder |
-|11 | If-Else & Case Statements | 4-bit ALU |
-|12 | Tasks & Functions | Memory Transactions |
-|13 | Reset Design | Async & Sync DFF |
-|14 | Counters | Up/Down & Johnson Counter |
-|15 | Shift Registers | Parallel to Serial |
-|16 | Sequence Generator | Odd Number Generator |
-|17 | Edge Detector | Frequency Counter |
-|18 | Arbiter | Priority Arbiter |
-|19 | Pipeline | Arithmetic Pipeline |
-|20 | Clock Divider | PWM Generator |
-|21 | Glue Logic | Interface Controller |
-|22 | CRC | Error Detection |
-|23 | FSM | Sequence Detector |
-|24 | File I/O | Memory Initialization |
-|25 | RAM vs ROM | Memory Design |
-|26 | FIFO | Synchronous FIFO |
-|27 | Booth Multiplier | Signed Arithmetic |
-|28 | Barrel Shifter & Parser | Combinational Blocks |
-|29 | RTL Best Practices | High Cohesion & DRY |
-|30 | 🚀 Final RTL Mini Project | Complete System |
-
----
-
-# 📚 Daily Folder Structure
-
-```
-Day05_Behavioral/
+```text
+Day34_CRC/
 
 ├── rtl/
-│      demux.v
-│
 ├── tb/
-│      demux_tb.v
-│
 ├── waveforms/
-│      waveform.png
-│
 ├── report/
-│      explanation.md
-│
 └── README.md
 ```
 
 ---
 
-# 📷 Sample Waveform
+# 🚀 After 50 Days
 
-<p align="center">
+By completing this challenge, you will have practical experience with:
 
-<img src="Images/waveform.png" width="900">
-
-</p>
-
----
-
-# 🚀 Skills After Completing
-
-✔ RTL Coding
-
-✔ Testbench Writing
-
-✔ Simulation
-
-✔ Timing Understanding
-
-✔ FSM Design
-
-✔ Memory Design
-
-✔ FPGA Development
-
-✔ Interview Preparation
+✔ Verilog RTL Design
+✔ Testbench Development
+✔ Simulation & Waveform Analysis
+✔ FSM & Sequential Design
+✔ Counters & Clocking
+✔ Memory & FIFO Design
+✔ Arithmetic RTL
+✔ FPGA Design Concepts
+✔ RTL Coding Best Practices
+✔ Campus Placement Preparation
 
 ---
 
-# 🎖 Difficulty
+# 🏆 Final Goal
 
-```
-Week 1   ⭐
-Week 2   ⭐⭐
-Week 3   ⭐⭐⭐
-Week 4   ⭐⭐⭐⭐
-```
+Build a complete RTL system combining concepts such as:
 
----
-
-# 🏆 Final Project
-
-At the end of this challenge you'll build a complete RTL system integrating
-
-- FSM
-- FIFO
-- ALU
-- Counter
-- Register File
-- Memory
-- Clock Divider
+**FSM + FIFO + ALU + Counters + Registers + Memory + Clocking**
 
 ---
 
 # 🤝 Contributing
-
-Contributions are welcome!
 
 1. Fork
 2. Create Branch
 3. Commit
 4. Push
 5. Open Pull Request
-
----
-
-# ⭐ Support
-
-If you like this repository,
-
-🌟 Star the repository
-
-🍴 Fork it
-
-📢 Share it with others
 
 ---
 
@@ -240,6 +185,6 @@ If you like this repository,
 
 ### It's Designed."
 
-Made with ❤️ using Verilog
+**Made with ❤️ using Verilog**
 
 </div>
