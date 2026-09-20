@@ -4,7 +4,7 @@
 
 Learn how Verilog can read memory contents from external files.
 
-Today we will learn:
+Today we will learn: 
 
 * What File I/O means in RTL
 * `$readmemh`
