@@ -1,7 +1,7 @@
 # Day 05 — Verilog `reg`
 
 ## 1. Day 5 Objective
-
+   
 By the end of Day 5, you should understand:
 
 * What `reg` means in Verilog
