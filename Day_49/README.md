@@ -11,7 +11,7 @@ Learn how to write RTL that is:
 * Consistent
 * Self-explanatory
 * Suitable for team-based chip design
-
+   
 The main principle is:
 
 > **RTL should be written for humans first and synthesis tools second.**
